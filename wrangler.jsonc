@@ -8,4 +8,7 @@
     "NEXT_PUBLIC_SUPABASE_URL": "https://wdkhaxwynysvfqfiqvvm.supabase.co",
     "NODE_VERSION": "22"
   },
+  "observability": {
+    "enabled": false
+  },
 }
