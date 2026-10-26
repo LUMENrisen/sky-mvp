@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build --webpack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "deploy": "npx @opennextjs/cloudflare build && npx wrangler deploy"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.118.0",
